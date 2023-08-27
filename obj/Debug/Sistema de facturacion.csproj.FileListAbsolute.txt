@@ -1,0 +1,106 @@
+C:\Users\Usuario\Documents\IUE\POO\Sistema de facturacion\bin\Debug\Sistema de facturacion.exe.config
+C:\Users\Usuario\Documents\IUE\POO\Sistema de facturacion\bin\Debug\Sistema de facturacion.exe
+C:\Users\Usuario\Documents\IUE\POO\Sistema de facturacion\bin\Debug\Sistema de facturacion.pdb
+C:\Users\Usuario\Documents\IUE\POO\Sistema de facturacion\obj\Debug\Sistema de facturacion.csproj.AssemblyReference.cache
+C:\Users\Usuario\Documents\IUE\POO\Sistema de facturacion\obj\Debug\Sistema de facturacion.csproj.SuggestedBindingRedirects.cache
+C:\Users\Usuario\Documents\IUE\POO\Sistema de facturacion\obj\Debug\Sistema_de_facturacion.Properties.Resources.resources
+C:\Users\Usuario\Documents\IUE\POO\Sistema de facturacion\obj\Debug\Sistema de facturacion.csproj.GenerateResource.cache
+C:\Users\Usuario\Documents\IUE\POO\Sistema de facturacion\obj\Debug\Sistema de facturacion.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Documents\IUE\POO\Sistema de facturacion\obj\Debug\Sistema de facturacion.exe
+C:\Users\Usuario\Documents\IUE\POO\Sistema de facturacion\obj\Debug\Sistema de facturacion.pdb
+C:\Users\Usuario\Documents\IUE\POO\Sistema de facturacion\obj\Debug\Sistema_de_facturacion.Formularios.frmTest.resources
+C:\Users\sebas\Documents\Programacion Orientada a Objetos\Sistema de facturacion\bin\Debug\Sistema de facturacion.exe.config
+C:\Users\sebas\Documents\Programacion Orientada a Objetos\Sistema de facturacion\bin\Debug\Sistema de facturacion.exe
+C:\Users\sebas\Documents\Programacion Orientada a Objetos\Sistema de facturacion\bin\Debug\Sistema de facturacion.pdb
+C:\Users\sebas\Documents\Programacion Orientada a Objetos\Sistema de facturacion\obj\Debug\Sistema de facturacion.csproj.AssemblyReference.cache
+C:\Users\sebas\Documents\Programacion Orientada a Objetos\Sistema de facturacion\obj\Debug\Sistema de facturacion.csproj.SuggestedBindingRedirects.cache
+C:\Users\sebas\Documents\Programacion Orientada a Objetos\Sistema de facturacion\obj\Debug\Sistema_de_facturacion.Properties.Resources.resources
+C:\Users\sebas\Documents\Programacion Orientada a Objetos\Sistema de facturacion\obj\Debug\Sistema de facturacion.csproj.GenerateResource.cache
+C:\Users\sebas\Documents\Programacion Orientada a Objetos\Sistema de facturacion\obj\Debug\Sistema de facturacion.csproj.CoreCompileInputs.cache
+C:\Users\sebas\Documents\Programacion Orientada a Objetos\Sistema de facturacion\obj\Debug\Sistema de facturacion.exe
+C:\Users\sebas\Documents\Programacion Orientada a Objetos\Sistema de facturacion\obj\Debug\Sistema de facturacion.pdb
+C:\Users\sebas\Documents\Programacion Orientada a Objetos\Sistema de facturacion\obj\Debug\Sistema_de_facturacion.Formularios.frmCrearCuenta.resources
+C:\Users\sebas\Documents\Programacion Orientada a Objetos\Sistema de facturacion\obj\Debug\Sistema_de_facturacion.Formularios.frmLogin.resources
+C:\Users\Usuario\Downloads\Sistema de facturacion\bin\Debug\Sistema de facturacion.exe.config
+C:\Users\Usuario\Downloads\Sistema de facturacion\bin\Debug\Sistema de facturacion.exe
+C:\Users\Usuario\Downloads\Sistema de facturacion\bin\Debug\Sistema de facturacion.pdb
+C:\Users\Usuario\Downloads\Sistema de facturacion\obj\Debug\Sistema de facturacion.csproj.AssemblyReference.cache
+C:\Users\Usuario\Downloads\Sistema de facturacion\obj\Debug\Sistema de facturacion.csproj.SuggestedBindingRedirects.cache
+C:\Users\Usuario\Downloads\Sistema de facturacion\obj\Debug\Sistema_de_facturacion.Formularios.frmBienvenido.resources
+C:\Users\Usuario\Downloads\Sistema de facturacion\obj\Debug\Sistema_de_facturacion.Formularios.frmCrearCuenta.resources
+C:\Users\Usuario\Downloads\Sistema de facturacion\obj\Debug\Sistema_de_facturacion.Formularios.frmLogin.resources
+C:\Users\Usuario\Downloads\Sistema de facturacion\obj\Debug\Sistema_de_facturacion.Properties.Resources.resources
+C:\Users\Usuario\Downloads\Sistema de facturacion\obj\Debug\Sistema de facturacion.csproj.GenerateResource.cache
+C:\Users\Usuario\Downloads\Sistema de facturacion\obj\Debug\Sistema de facturacion.csproj.CoreCompileInputs.cache
+C:\Users\Usuario\Downloads\Sistema de facturacion\obj\Debug\Sistema de facturacion.exe
+C:\Users\Usuario\Downloads\Sistema de facturacion\obj\Debug\Sistema de facturacion.pdb
+C:\Users\Usuario\Downloads\Sistema de facturacion\obj\Debug\Sistema_de_facturacion.Formularios.frmRecuperarContrasena.resources
+C:\Users\sebas\Documents\Programacion Orientada a Objetos\Sistema de facturacion\obj\Debug\Sistema_de_facturacion.Formularios.frmMenu.resources
+C:\Users\sebas\Documents\Programacion Orientada a Objetos\Sistema de facturacion\obj\Debug\Sistema_de_facturacion.Formularios.frmRecuperarContrasena.resources
+C:\Users\Usuario\Downloads\Sistema de facturacion\obj\Debug\Sistema_de_facturacion.Formularios.frmMenu.resources
+C:\Users\sebas\Documents\Programacion Orientada a Objetos\Sistema de facturacion\obj\Debug\Sistema_de_facturacion.Formularios.frmPlanes.resources
+C:\Users\Usuario\Downloads\Sistema de facturacion\obj\Debug\Sistema_de_facturacion.Formularios.frmPlanes.resources
+C:\Users\sebas\Documents\Programacion Orientada a Objetos\Hotel Billing System\Sistema de facturacion\bin\Debug\Sistema de facturacion.exe.config
+C:\Users\sebas\Documents\Programacion Orientada a Objetos\Hotel Billing System\Sistema de facturacion\bin\Debug\Sistema de facturacion.exe
+C:\Users\sebas\Documents\Programacion Orientada a Objetos\Hotel Billing System\Sistema de facturacion\bin\Debug\Sistema de facturacion.pdb
+C:\Users\sebas\Documents\Programacion Orientada a Objetos\Hotel Billing System\Sistema de facturacion\obj\Debug\Sistema de facturacion.csproj.AssemblyReference.cache
+C:\Users\sebas\Documents\Programacion Orientada a Objetos\Hotel Billing System\Sistema de facturacion\obj\Debug\Sistema de facturacion.csproj.SuggestedBindingRedirects.cache
+C:\Users\sebas\Documents\Programacion Orientada a Objetos\Hotel Billing System\Sistema de facturacion\obj\Debug\Sistema_de_facturacion.Formularios.frmBienvenido.resources
+C:\Users\sebas\Documents\Programacion Orientada a Objetos\Hotel Billing System\Sistema de facturacion\obj\Debug\Sistema_de_facturacion.Formularios.frmCrearCuenta.resources
+C:\Users\sebas\Documents\Programacion Orientada a Objetos\Hotel Billing System\Sistema de facturacion\obj\Debug\Sistema_de_facturacion.Formularios.frmLogin.resources
+C:\Users\sebas\Documents\Programacion Orientada a Objetos\Hotel Billing System\Sistema de facturacion\obj\Debug\Sistema_de_facturacion.Formularios.frmMenu.resources
+C:\Users\sebas\Documents\Programacion Orientada a Objetos\Hotel Billing System\Sistema de facturacion\obj\Debug\Sistema_de_facturacion.Formularios.frmPlanes.resources
+C:\Users\sebas\Documents\Programacion Orientada a Objetos\Hotel Billing System\Sistema de facturacion\obj\Debug\Sistema_de_facturacion.Formularios.frmRecuperarContrasena.resources
+C:\Users\sebas\Documents\Programacion Orientada a Objetos\Hotel Billing System\Sistema de facturacion\obj\Debug\Sistema_de_facturacion.Properties.Resources.resources
+C:\Users\sebas\Documents\Programacion Orientada a Objetos\Hotel Billing System\Sistema de facturacion\obj\Debug\Sistema de facturacion.csproj.GenerateResource.cache
+C:\Users\sebas\Documents\Programacion Orientada a Objetos\Hotel Billing System\Sistema de facturacion\obj\Debug\Sistema de facturacion.csproj.CoreCompileInputs.cache
+C:\Users\sebas\Documents\Programacion Orientada a Objetos\Hotel Billing System\Sistema de facturacion\obj\Debug\Sistema de facturacion.exe
+C:\Users\sebas\Documents\Programacion Orientada a Objetos\Hotel Billing System\Sistema de facturacion\obj\Debug\Sistema de facturacion.pdb
+C:\Users\sebas\Documents\Programacion Orientada a Objetos\Hotel Billing System\Sistema de facturacion\obj\Debug\Sistema_de_facturacion.Formularios.frmMessageCerrar.resources
+C:\Users\Usuario\Downloads\Sistema de facturacion\obj\Debug\Sistema_de_facturacion.Formularios.frmMessageCerrar.resources
+C:\Users\sebas\Documents\Programacion Orientada a Objetos\Sistema de facturacion\obj\Debug\Sistema_de_facturacion.Formularios.frmMessageAgreguePersonas.resources
+C:\Users\sebas\Documents\Programacion Orientada a Objetos\Sistema de facturacion\obj\Debug\Sistema_de_facturacion.Formularios.frmMessageCerrar.resources
+C:\Users\sebas\Documents\Programacion Orientada a Objetos\Sistema de facturacion\obj\Debug\Sistema_de_facturacion.Formularios.frmMessageErrorDesconocido.resources
+C:\Users\sebas\Documents\Programacion Orientada a Objetos\Sistema de facturacion\obj\Debug\Sistema_de_facturacion.Formularios.frmMessageHabitacionNoDisponible.resources
+C:\Users\sebas\Documents\Programacion Orientada a Objetos\Sistema de facturacion\obj\Debug\Sistema_de_facturacion.Formularios.frmMessagePlanNoDisponible.resources
+C:\Users\sebas\Documents\Programacion Orientada a Objetos\Sistema de facturacion\obj\Debug\Sistema_de_facturacion.Formularios.frmMessageReservaCreada.resources
+C:\Users\sebas\Documents\Programacion Orientada a Objetos\Sistema de facturacion\obj\Debug\Sistema_de_facturacion.Formularios.frmProductos.resources
+C:\Users\Usuario\Downloads\Sistema de facturacion\obj\Debug\Sistema_de_facturacion.Formularios.frmMessageAgreguePersonas.resources
+C:\Users\Usuario\Downloads\Sistema de facturacion\obj\Debug\Sistema_de_facturacion.Formularios.frmMessageErrorDesconocido.resources
+C:\Users\Usuario\Downloads\Sistema de facturacion\obj\Debug\Sistema_de_facturacion.Formularios.frmMessageHabitacionNoDisponible.resources
+C:\Users\Usuario\Downloads\Sistema de facturacion\obj\Debug\Sistema_de_facturacion.Formularios.frmMessagePlanNoDisponible.resources
+C:\Users\Usuario\Downloads\Sistema de facturacion\obj\Debug\Sistema_de_facturacion.Formularios.frmMessageReservaCreada.resources
+C:\Users\Usuario\Downloads\Sistema de facturacion\obj\Debug\Sistema_de_facturacion.Formularios.frmProductos.resources
+C:\Users\Usuario\Downloads\Sistema de facturacion\obj\Debug\Sistema_de_facturacion.Formularios.frmHabitaciones.resources
+C:\Users\sebas\Documents\Programacion Orientada a Objetos\HOTEL BILLING SYSTEM\Sistema de facturacion\obj\Debug\Sistema_de_facturacion.Formularios.frmHabitaciones.resources
+C:\Users\sebas\Documents\Programacion Orientada a Objetos\HOTEL BILLING SYSTEM\Sistema de facturacion\obj\Debug\Sistema_de_facturacion.Formularios.frmMessageAgreguePersonas.resources
+C:\Users\sebas\Documents\Programacion Orientada a Objetos\HOTEL BILLING SYSTEM\Sistema de facturacion\obj\Debug\Sistema_de_facturacion.Formularios.frmMessageErrorDesconocido.resources
+C:\Users\sebas\Documents\Programacion Orientada a Objetos\HOTEL BILLING SYSTEM\Sistema de facturacion\obj\Debug\Sistema_de_facturacion.Formularios.frmMessageHabitacionNoDisponible.resources
+C:\Users\sebas\Documents\Programacion Orientada a Objetos\HOTEL BILLING SYSTEM\Sistema de facturacion\obj\Debug\Sistema_de_facturacion.Formularios.frmMessagePlanNoDisponible.resources
+C:\Users\sebas\Documents\Programacion Orientada a Objetos\HOTEL BILLING SYSTEM\Sistema de facturacion\obj\Debug\Sistema_de_facturacion.Formularios.frmMessageReservaCreada.resources
+C:\Users\sebas\Documents\Programacion Orientada a Objetos\HOTEL BILLING SYSTEM\Sistema de facturacion\obj\Debug\Sistema_de_facturacion.Formularios.frmProductos.resources
+C:\Users\sebas\Documents\Programacion Orientada a Objetos\HOTEL BILLING SYSTEM\Sistema de facturacion\obj\Debug\Sistema_de_facturacion.Formularios.frmReserva.resources
+C:\Users\Usuario\Downloads\Sistema de facturacion\obj\Debug\Sistema_de_facturacion.Formularios.frmReserva.resources
+C:\Users\sebas\Documents\Programacion Orientada a Objetos\Sistema de facturacion\obj\Debug\Sistema_de_facturacion.Formularios.frmHabitaciones.resources
+C:\Users\sebas\Documents\Programacion Orientada a Objetos\Sistema de facturacion\obj\Debug\Sistema_de_facturacion.Formularios.frmReserva.resources
+C:\Users\sebas\Documents\Programacion Orientada a Objetos\Sistema de facturacion\obj\Debug\Sistema_de_facturacion.Formularios.frmPerfilUsuario.resources
+C:\Users\sebas\Documents\Programacion Orientada a Objetos\Sistema de facturacion\obj\Debug\Sistema_de_facturacion.Formularios.frmPerfilHotel.resources
+C:\Users\Usuario\Downloads\Sistema de facturacion\obj\Debug\Sistema_de_facturacion.Formularios.frmPerfilHotel.resources
+C:\Users\Usuario\Downloads\Sistema de facturacion\obj\Debug\Sistema_de_facturacion.Formularios.frmPerfilUsuario.resources
+C:\Users\sebas\Documents\Programacion Orientada a Objetos\Sistema de facturacion\obj\Debug\Sistema_de_facturacion.Formularios.frmEmpleados.resources
+C:\Users\sebas\Documents\Programacion Orientada a Objetos\Sistema de facturacion\obj\Debug\Sistema_de_facturacion.Formularios.frmConsumo.resources
+C:\Users\sebas\Documents\Programacion Orientada a Objetos\Sistema de facturacion\obj\Debug\Sistema_de_facturacion.Formularios.frmBienvenido.resources
+C:\Users\sebas\Documents\Programacion Orientada a Objetos\Sistema de facturacion\bin\Debug\x64\pdfium.dll
+C:\Users\sebas\Documents\Programacion Orientada a Objetos\Sistema de facturacion\bin\Debug\PdfiumViewer.dll
+C:\Users\sebas\Documents\Programacion Orientada a Objetos\Sistema de facturacion\bin\Debug\PdfiumViewer.xml
+C:\Users\sebas\Documents\Programacion Orientada a Objetos\Sistema de facturacion\bin\Debug\nl\PdfiumViewer.resources.dll
+C:\Users\sebas\Documents\Programacion Orientada a Objetos\Sistema de facturacion\obj\Debug\Sistema_de_facturacion.Formularios.Prueba.resources
+C:\Users\sebas\Documents\Programacion Orientada a Objetos\Sistema de facturacion\obj\Debug\Sistema de facturacion.csproj.CopyComplete
+C:\Users\Usuario\Downloads\Sistema de facturacion\bin\Debug\x64\pdfium.dll
+C:\Users\Usuario\Downloads\Sistema de facturacion\bin\Debug\PdfiumViewer.dll
+C:\Users\Usuario\Downloads\Sistema de facturacion\bin\Debug\PdfiumViewer.xml
+C:\Users\Usuario\Downloads\Sistema de facturacion\bin\Debug\nl\PdfiumViewer.resources.dll
+C:\Users\Usuario\Downloads\Sistema de facturacion\obj\Debug\Sistema_de_facturacion.Formularios.frmConsumo.resources
+C:\Users\Usuario\Downloads\Sistema de facturacion\obj\Debug\Sistema_de_facturacion.Formularios.frmEmpleados.resources
+C:\Users\Usuario\Downloads\Sistema de facturacion\obj\Debug\Sistema_de_facturacion.Formularios.Prueba.resources
+C:\Users\Usuario\Downloads\Sistema de facturacion\obj\Debug\Sistema de facturacion.csproj.CopyComplete

@@ -1,0 +1,380 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="packages\PdfiumViewer.Native.x86_64.v8-xfa.2018.4.8.256\build\PdfiumViewer.Native.x86_64.v8-xfa.props" Condition="Exists('packages\PdfiumViewer.Native.x86_64.v8-xfa.2018.4.8.256\build\PdfiumViewer.Native.x86_64.v8-xfa.props')" />
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{25435239-1228-4D20-AC36-DC61E94B8A2F}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <RootNamespace>Sistema_de_facturacion</RootNamespace>
+    <AssemblyName>Sistema de facturacion</AssemblyName>
+    <TargetFrameworkVersion>v4.7.2</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>
+    <Deterministic>true</Deterministic>
+    <NuGetPackageImportStamp>
+    </NuGetPackageImportStamp>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="Microsoft.Office.Interop.Word, Version=15.0.0.0, Culture=neutral, PublicKeyToken=71e9bce111e9429c, processorArchitecture=MSIL">
+      <SpecificVersion>False</SpecificVersion>
+      <EmbedInteropTypes>True</EmbedInteropTypes>
+      <HintPath>.\Microsoft.Office.Interop.Word.dll</HintPath>
+    </Reference>
+    <Reference Include="PdfiumViewer, Version=2.13.0.0, Culture=neutral, PublicKeyToken=91e4789cfb0609e0, processorArchitecture=MSIL">
+      <HintPath>packages\PdfiumViewer.2.13.0.0\lib\net20\PdfiumViewer.dll</HintPath>
+    </Reference>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Net.Http" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="Clases\Acceso.cs" />
+    <Compile Include="Clases\cConexion.cs" />
+    <Compile Include="Clases\Consumo.cs" />
+    <Compile Include="Clases\ctrlConsumo.cs" />
+    <Compile Include="Clases\ctrlHabitacion.cs" />
+    <Compile Include="Clases\ctrlPlan.cs" />
+    <Compile Include="Clases\ctrlProductos.cs" />
+    <Compile Include="Clases\ctrlReserva.cs" />
+    <Compile Include="Clases\Habitacion.cs" />
+    <Compile Include="Clases\Plan.cs" />
+    <Compile Include="Clases\Productos.cs" />
+    <Compile Include="Clases\Reserva.cs" />
+    <Compile Include="Clases\TemaColor.cs" />
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\frmBienvenido.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\frmBienvenido.Designer.cs">
+      <DependentUpon>frmBienvenido.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\frmConsumo.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\frmConsumo.Designer.cs">
+      <DependentUpon>frmConsumo.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\frmCrearCuenta.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\frmCrearCuenta.Designer.cs">
+      <DependentUpon>frmCrearCuenta.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\frmHabitaciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\frmHabitaciones.Designer.cs">
+      <DependentUpon>frmHabitaciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\frmLogin.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\frmLogin.Designer.cs">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\frmMenu.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\frmMenu.Designer.cs">
+      <DependentUpon>frmMenu.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\frmMessageAgreguePersonas.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\frmMessageAgreguePersonas.Designer.cs">
+      <DependentUpon>frmMessageAgreguePersonas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\frmMessageCerrar.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\frmMessageCerrar.Designer.cs">
+      <DependentUpon>frmMessageCerrar.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\frmMessageErrorDesconocido.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\frmMessageErrorDesconocido.Designer.cs">
+      <DependentUpon>frmMessageErrorDesconocido.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\frmMessageHabitacionNoDisponible.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\frmMessageHabitacionNoDisponible.Designer.cs">
+      <DependentUpon>frmMessageHabitacionNoDisponible.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\frmMessagePlanNoDisponible.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\frmMessagePlanNoDisponible.Designer.cs">
+      <DependentUpon>frmMessagePlanNoDisponible.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\frmMessageReservaCreada.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\frmMessageReservaCreada.Designer.cs">
+      <DependentUpon>frmMessageReservaCreada.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\frmPerfilHotel.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\frmPerfilHotel.Designer.cs">
+      <DependentUpon>frmPerfilHotel.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\frmPlanes.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\frmPlanes.Designer.cs">
+      <DependentUpon>frmPlanes.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\frmProductos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\frmProductos.Designer.cs">
+      <DependentUpon>frmProductos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\frmRecuperarContrasena.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\frmRecuperarContrasena.Designer.cs">
+      <DependentUpon>frmRecuperarContrasena.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\frmReserva.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\frmReserva.Designer.cs">
+      <DependentUpon>frmReserva.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\frmPerfilUsuario.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\frmPerfilUsuario.Designer.cs">
+      <DependentUpon>frmPerfilUsuario.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\frmEmpleados.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\frmEmpleados.Designer.cs">
+      <DependentUpon>frmEmpleados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Formularios\Prueba.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Formularios\Prueba.Designer.cs">
+      <DependentUpon>Prueba.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Formularios\frmBienvenido.resx">
+      <DependentUpon>frmBienvenido.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\frmConsumo.resx">
+      <DependentUpon>frmConsumo.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\frmCrearCuenta.resx">
+      <DependentUpon>frmCrearCuenta.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\frmHabitaciones.resx">
+      <DependentUpon>frmHabitaciones.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\frmLogin.resx">
+      <DependentUpon>frmLogin.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\frmMenu.resx">
+      <DependentUpon>frmMenu.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\frmMessageAgreguePersonas.resx">
+      <DependentUpon>frmMessageAgreguePersonas.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\frmMessageCerrar.resx">
+      <DependentUpon>frmMessageCerrar.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\frmMessageErrorDesconocido.resx">
+      <DependentUpon>frmMessageErrorDesconocido.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\frmMessageHabitacionNoDisponible.resx">
+      <DependentUpon>frmMessageHabitacionNoDisponible.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\frmMessagePlanNoDisponible.resx">
+      <DependentUpon>frmMessagePlanNoDisponible.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\frmMessageReservaCreada.resx">
+      <DependentUpon>frmMessageReservaCreada.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\frmPerfilHotel.resx">
+      <DependentUpon>frmPerfilHotel.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\frmPlanes.resx">
+      <DependentUpon>frmPlanes.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\frmProductos.resx">
+      <DependentUpon>frmProductos.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\frmRecuperarContrasena.resx">
+      <DependentUpon>frmRecuperarContrasena.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\frmReserva.resx">
+      <DependentUpon>frmReserva.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\frmPerfilUsuario.resx">
+      <DependentUpon>frmPerfilUsuario.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\frmEmpleados.resx">
+      <DependentUpon>frmEmpleados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Formularios\Prueba.resx">
+      <DependentUpon>Prueba.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+      <SubType>Designer</SubType>
+    </EmbeddedResource>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Resources.resx</DependentUpon>
+      <DesignTime>True</DesignTime>
+    </Compile>
+    <None Include="packages.config" />
+    <None Include="Properties\DataSources\Sistema_de_facturacion.Clases.Habitacion.datasource" />
+    <None Include="Properties\DataSources\Sistema_de_facturacion.Clases.Plan.datasource" />
+    <None Include="Properties\DataSources\Sistema_de_facturacion.Clases.Productos.datasource" />
+    <None Include="Properties\DataSources\Sistema_de_facturacion.Clases.Reserva.datasource" />
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\logo jeje.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Cerrar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OjoCiego.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\OjoVer.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Iniciar Sesion.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Registrar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Bienvenidos.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\digital-services.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cama.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\cita %281%29.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Factura.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Informes.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\apagar.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\boton-mas.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\guardar-el-archivo.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\insertar-icono-de-imagen.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\usuario-de-perfil.png" />
+    <None Include="Resources\soleadoBlack.png" />
+    <None Include="Resources\soleado.png" />
+    <None Include="Resources\Ultimo1.png" />
+    <None Include="Resources\Siguiente.png" />
+    <None Include="Resources\Ultimo.png" />
+    <None Include="Resources\FondoWHPng.png" />
+    <None Include="Resources\Logo HBF.png" />
+    <None Include="Resources\aceptar.png" />
+    <None Include="Resources\Anterior.png" />
+    <None Include="Resources\Primero.png" />
+    <None Include="Resources\anadir.png" />
+    <None Include="Resources\boton-editar.png" />
+    <None Include="Resources\borrar.png" />
+    <None Include="Resources\mostrar.png" />
+    <None Include="Resources\acceso.png" />
+    <None Include="bin\Debug\Images\1.jpg.jpg" />
+    <None Include="Resources\boton-mas1.png" />
+    <None Include="Resources\esqueleto.png" />
+    <None Include="Resources\hotel.png" />
+    <None Include="Resources\cerca.png" />
+    <None Include="Resources\destellos %281%29.png" />
+    <Content Include="Resources\imagen1.jpeg" />
+    <Content Include="Resources\imagen2.jpg" />
+    <Content Include="Resources\imagen3.jpg" />
+    <None Include="Resources\imagen31.jpg" />
+    <None Include="Resources\luna.png" />
+    <None Include="Resources\insertar-icono-de-imagen1.png" />
+    <None Include="Resources\ojo.png" />
+    <None Include="Resources\limpiar.png" />
+    <None Include="Resources\lupa.png" />
+    <None Include="Resources\lupa1.png" />
+    <Content Include="Resources\Profile.png" />
+    <None Include="Resources\Registrar1.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <Target Name="EnsureNuGetPackageBuildImports" BeforeTargets="PrepareForBuild">
+    <PropertyGroup>
+      <ErrorText>Este proyecto hace referencia a los paquetes NuGet que faltan en este equipo. Use la restauración de paquetes NuGet para descargarlos. Para obtener más información, consulte http://go.microsoft.com/fwlink/?LinkID=322105. El archivo que falta es {0}.</ErrorText>
+    </PropertyGroup>
+    <Error Condition="!Exists('packages\PdfiumViewer.Native.x86_64.v8-xfa.2018.4.8.256\build\PdfiumViewer.Native.x86_64.v8-xfa.props')" Text="$([System.String]::Format('$(ErrorText)', 'packages\PdfiumViewer.Native.x86_64.v8-xfa.2018.4.8.256\build\PdfiumViewer.Native.x86_64.v8-xfa.props'))" />
+  </Target>
+</Project>
